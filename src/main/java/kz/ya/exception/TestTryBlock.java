@@ -1,4 +1,4 @@
-package exception;
+package kz.ya.exception;
 
 /**
  *
