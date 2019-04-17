@@ -1,7 +1,7 @@
 /*
  * Singleton pattern example with static factory method
  */
-package kz.ya.concurrency.singleton;
+package kz.ya.dp.create.singleton;
 
 /**
  *

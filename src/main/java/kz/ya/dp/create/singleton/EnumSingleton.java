@@ -1,7 +1,7 @@
 /*
  * Threadsafe Singleton class using Java Enum
  */
-package kz.ya.concurrency.singleton;
+package kz.ya.dp.create.singleton;
 
 /**
  *

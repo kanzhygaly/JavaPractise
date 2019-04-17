@@ -2,7 +2,7 @@
  * Producer Consumer Problem solution using Semaphore and BlockingQueue in Java.
  * BlockingQueue not only provide a data structure to store data,
  * but also gives you flow control, require for inter thread communication.
- * Semaphore 
+ * Semaphore enables us to use shared lock between threads.
  */
 package kz.ya.concurrency.prodcons;
 

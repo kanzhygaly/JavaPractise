@@ -4,7 +4,7 @@
  * on concurrent environment, but unnecessarily expensive due to cost of
  * synchronization at every call.
  */
-package kz.ya.concurrency.singleton;
+package kz.ya.dp.create.singleton;
 
 /**
  *

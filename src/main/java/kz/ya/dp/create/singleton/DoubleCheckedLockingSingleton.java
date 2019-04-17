@@ -5,7 +5,7 @@
  * By the way this is still broken, if we don't make INSTANCE volatile, as another thread can
  * see a half initialized instance of Singleton.
  */
-package kz.ya.concurrency.singleton;
+package kz.ya.dp.create.singleton;
 
 /**
  *

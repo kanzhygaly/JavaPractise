@@ -2,7 +2,7 @@
  * An implementation of Simple Singleton.
  * Creates multiple instance if two thread access getInstance() method simultaneously
  */
-package kz.ya.concurrency.singleton;
+package kz.ya.dp.create.singleton;
 
 /**
  *

@@ -1,7 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Producer Consumer Problem solution using CustomThreadPoolExecutor and BlockingQueue in Java.
+ * BlockingQueue not only provide a data structure to store data,
+ * but also gives you flow control, require for inter thread communication.
+ * Semaphore enables us to use shared lock between threads.
  */
 package kz.ya.concurrency.prodcons;
 
@@ -43,5 +44,7 @@ public class ProduceConsumerProblem {
             System.out.println("Adding DemoTask : " + i);
             executor.execute(new DemoTask(String.valueOf(i)));
         }
+        
+        executor.shutdown();
     }
 }
